@@ -27,17 +27,17 @@ public class MoveUFOAudioSource : MonoBehaviour
     {
         RaycastHit hit;
         Vector3 startPosition = new Vector3(transform.position.x, transform.position.y - MARGIN, transform.position.z);
-        //if (Physics.Raycast(startPosition, transform.TransformDirection(Vector3.down), out hit, maxRange))
-        //{
-        //    audioSourceGO.transform.position = hit.point;
-        //    if(Vector3.Distance(player.transform.position, audioSourceGO.transform.position) < audioSource.maxDistance)
-        //    {
-        //        Debug.Log("Should play");
-        //    }
-        //    else
-        //    {
-        //        Debug.Log("Shouldn't play");
-        //    }
-        //}
+        if (Physics.Raycast(startPosition, transform.TransformDirection(Vector3.down), out hit, maxRange))
+        {
+            audioSourceGO.transform.position = hit.point;
+            //if (Vector3.Distance(player.transform.position, audioSourceGO.transform.position) < audioSource.maxDistance)
+            //{
+            //    Debug.Log("Should play");
+            //}
+            //else
+            //{
+            //    Debug.Log("Shouldn't play");
+            //}
+        }
     }
 }
