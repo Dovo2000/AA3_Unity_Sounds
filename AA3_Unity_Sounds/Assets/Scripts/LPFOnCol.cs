@@ -45,7 +45,7 @@ public class LPFOnCol : MonoBehaviour
                 audioMixer.SetFloat(varName, MIN_FREQ);
             }
 
-            Debug.Log(varName + ": " + cutOffFreq);
+            //Debug.Log(varName + ": " + cutOffFreq);
 
         }
         else
@@ -59,7 +59,7 @@ public class LPFOnCol : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("In");
+            //Debug.Log("In");
             StartCoroutine(LPFCoroutine("sfxLPF", -DEFAULT_ADD_AMMOUNT));
             StartCoroutine(LPFCoroutine("musicLPF", -DEFAULT_ADD_AMMOUNT));
 
@@ -70,7 +70,7 @@ public class LPFOnCol : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Out");
+            //Debug.Log("Out");
             StartCoroutine(LPFCoroutine("sfxLPF", DEFAULT_ADD_AMMOUNT));
             StartCoroutine(LPFCoroutine("musicLPF", DEFAULT_ADD_AMMOUNT));
 
