@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{7775f913-d879-4bed-b173-9ad0aebf050c}">
+		<property name="assetPath">
+			<value>ambient_crickets.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>10.312494331065759</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1fb7d05f-a2ba-4a15-914e-361837d80f39}</destination>
+		</relationship>
+	</object>
+</objects>
