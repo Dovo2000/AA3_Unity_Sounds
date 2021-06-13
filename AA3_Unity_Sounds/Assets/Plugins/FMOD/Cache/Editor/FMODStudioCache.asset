@@ -22,7 +22,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1187
+  Length: 0
 --- !u!114 &-5973352499009099271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
   - {fileID: 1013344104975477261}
   StringsBanks:
   - {fileID: 1395056395293609533}
-  stringsBankWriteTime: 637591487503327068
+  stringsBankWriteTime: 637591517461335230
   cacheVersion: 8
 --- !u!114 &1013344104975477261
 MonoBehaviour:
@@ -86,11 +86,11 @@ MonoBehaviour:
   Path: ../AA4_Sound_System/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637591487503307114
+  lastModified: 637591517461325269
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 2411968
+    Value: 1904064
   Exists: 1
 --- !u!114 &1395056395293609533
 MonoBehaviour:
@@ -107,7 +107,7 @@ MonoBehaviour:
   Path: ../AA4_Sound_System/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637591487503327068
+  lastModified: 637591517461335230
   LoadResult: 0
   FileSizes:
   - Name: Desktop
