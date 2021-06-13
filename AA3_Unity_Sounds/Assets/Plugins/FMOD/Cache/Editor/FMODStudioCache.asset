@@ -69,7 +69,7 @@ MonoBehaviour:
   - {fileID: 1013344104975477261}
   StringsBanks:
   - {fileID: 1395056395293609533}
-  stringsBankWriteTime: 637591478966834515
+  stringsBankWriteTime: 637591487503327068
   cacheVersion: 8
 --- !u!114 &1013344104975477261
 MonoBehaviour:
@@ -86,11 +86,11 @@ MonoBehaviour:
   Path: ../AA4_Sound_System/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637591478966824547
+  lastModified: 637591487503307114
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 2411808
+    Value: 2411968
   Exists: 1
 --- !u!114 &1395056395293609533
 MonoBehaviour:
@@ -107,7 +107,7 @@ MonoBehaviour:
   Path: ../AA4_Sound_System/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637591478966834515
+  lastModified: 637591487503327068
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: event:/Sound FX/2D FX/Ambience/AmbienceLoop
   m_EditorClassIdentifier: 
   Path: event:/Sound FX/2D FX/Ambience/AmbienceLoop
-  guid: 7b1a3d84b73b574d93b127b3d8de1b2c
+  guid: edef1bf7189bd9458b17fea2184febf2
   Banks:
   - {fileID: 1013344104975477261}
   IsStream: 1
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: event:/Music/MusicLoop
   m_EditorClassIdentifier: 
   Path: event:/Music/MusicLoop
-  guid: 96a060a829c36149be576ae36a1f5787
+  guid: b2329aff24105c4486814f1af8959b83
   Banks:
   - {fileID: 1013344104975477261}
   IsStream: 1
