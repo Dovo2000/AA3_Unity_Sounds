@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{519de28d-0ed4-410a-bbe0-6fc674213425}">
+		<property name="assetPath">
+			<value>A_man_says_mmm-pistachio_-cartoon.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>3.4196598639455784</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1fb7d05f-a2ba-4a15-914e-361837d80f39}</destination>
+		</relationship>
+	</object>
+</objects>
