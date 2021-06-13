@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 2394554}
   - component: {fileID: 9521874}
   - component: {fileID: 8227261595299874756}
-  - component: {fileID: 2420538588695374800}
   - component: {fileID: 2724519518432016864}
   m_Layer: 8
   m_Name: FlyingSaucer_Body
@@ -149,19 +148,6 @@ CapsuleCollider:
   m_Height: 200
   m_Direction: 1
   m_Center: {x: 0, y: -100, z: 0.0000019073486}
---- !u!114 &2420538588695374800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03d041943edcf754f9711a73414c7a2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: af53fd0926f8c274e9f58d934d227116, type: 2}
 --- !u!114 &2724519518432016864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4937,6 +4923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3864617825786410671}
   - component: {fileID: 8627776586615204398}
+  - component: {fileID: 1288753383306698027}
   m_Layer: 8
   m_Name: AudioSourceGO
   m_TagString: Untagged
@@ -4965,10 +4952,9 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971992352792336019}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 2894612469592339819, guid: 38af83ca01ddf934b856d5a182f81d66,
-    type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d63812aae89b1e14d9c8a200a20c97e1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -5055,3 +5041,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1288753383306698027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971992352792336019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Sound FX/3D FX/UFO
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 50
