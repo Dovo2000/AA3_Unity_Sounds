@@ -37,8 +37,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Sound FX/3D FX/Campfire
   guid: 58a95589ae0ad34dbe191f633466a0a1
-  Banks:
-  - {fileID: 1013344104975477261}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -63,16 +62,14 @@ MonoBehaviour:
   - {fileID: 1013344104975477261}
   EditorEvents:
   - {fileID: -7099152744208283029}
-  - {fileID: -5973352499009099271}
   - {fileID: 6110650678699795325}
   - {fileID: 7196310261053817196}
-  - {fileID: 9005646237511384352}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1013344104975477261}
   StringsBanks:
   - {fileID: 1395056395293609533}
-  stringsBankWriteTime: 637591463169667115
+  stringsBankWriteTime: 637591478966834515
   cacheVersion: 8
 --- !u!114 &1013344104975477261
 MonoBehaviour:
@@ -89,11 +86,11 @@ MonoBehaviour:
   Path: ../AA4_Sound_System/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637591463169597302
+  lastModified: 637591478966824547
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 2695008
+    Value: 2411808
   Exists: 1
 --- !u!114 &1395056395293609533
 MonoBehaviour:
@@ -110,11 +107,11 @@ MonoBehaviour:
   Path: ../AA4_Sound_System/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637591463169667115
+  lastModified: 637591478966834515
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 998
+    Value: 960
   Exists: 1
 --- !u!114 &6110650678699795325
 MonoBehaviour:
@@ -176,8 +173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Sound FX/3D FX/WoodenBox
   guid: a8812111e6dc704f8302c3fcd3915af0
-  Banks:
-  - {fileID: 1013344104975477261}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
